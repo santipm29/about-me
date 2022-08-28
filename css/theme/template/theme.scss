@@ -256,8 +256,11 @@
 	vertical-align: top;
 }
 
-.reveal img {
-	margin: var(--r-block-margin) 0;
+.reveal .img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
 
